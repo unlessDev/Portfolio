@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import NavBar from '@/components/navbar'
 import '@/styles/globals.css'
 import { Ysabeau_SC } from 'next/font/google'
@@ -18,8 +19,9 @@ export default function App({ Component, pageProps }) {
       </Head>
       
       <main className={`${ysabeau.variable} font-ysab bg-light w-full min-h-screen`}>
-        <NavBar></NavBar>
+        <NavBar />
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   )
