@@ -1,12 +1,13 @@
-import aboutImg from "../assets/coding.jpeg"
+import aboutImg from "../assets/anime2.jpeg"
+import { FaChevronDown } from "react-icons/fa"
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-        <h1 className="my-20 text-center text-4xl">
-            Sobre
-            <span className="text-neutral-500 "> Mí</span>
+    <div className="border-b border-neutral-900 font-semibold pb-4">
+        <h1 className="my-20 text-blue-600 text-center text-4xl">
+            Sobre Mí
         </h1>
+
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
