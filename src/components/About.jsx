@@ -1,11 +1,17 @@
 import aboutImg from "../assets/animeOscu.png";
-import { FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <div className="border-b border-neutral-600 font-semibold pb-4">
-      <h1 className="my-20 text-center text-4xl">Sobre Mí</h1>
+      <motion.h1
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1 }}
+        className="my-20 text-center text-4xl"
+      >
+        Sobre Mí
+      </motion.h1>
 
       <div className="flex flex-wrap">
         <motion.div
