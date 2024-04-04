@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-600 pb-4">
+    <div className="border-b border-neutral-200 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-center text-4xl"
+        className="bg-gradient-to-r from-blue-600 via-slate-400 to-purple-600 bg-clip-text 
+        text-transparent my-16 text-center text-5xl font-bold"
       >
         Experiencias
       </motion.h2>
@@ -31,9 +32,9 @@ const Experience = () => {
               transition={{ duration: 1.6 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">
-                {experience.role} -{" "}
-                <span className="text-sm text-purple-100">
+              <h6 className="mb-2 text-gray-300 font-semibold">
+                {experience.role}: {" "}
+                <span className="text-md text-purple-300">
                   {experience.company}
                 </span>
               </h6>
