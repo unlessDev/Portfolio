@@ -1,6 +1,6 @@
 import santex from "../assets/santex.jpg";
-import egg from "../assets/egg.jpeg";
-import workingOn from "../assets/working.jpeg";
+import egg from "../assets/Egg.jpg";
+import workingOn from "../assets/work.jpg";
 
 
 export const EXPERIENCES = [
