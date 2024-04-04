@@ -3,14 +3,15 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-600 pb-4">
+    <div className="border-b border-neutral-200 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-center text-4xl font-semibold"
+        className="bg-gradient-to-r from-blue-600 via-slate-400 to-purple-600 bg-clip-text 
+        text-transparent my-20 text-center text-5xl font-bold"
       >
-        Proyectos
+        Proyectos/Certificados
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
@@ -23,10 +24,10 @@ const Projects = () => {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={ 320 }
+                height={ 320 }
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded "
               />
             </motion.div>
             <motion.div

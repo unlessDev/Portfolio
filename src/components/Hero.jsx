@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-600 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-200 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -42,13 +42,11 @@ const Hero = () => {
               animate="visible"
               className="my-2 max-w-xl py-8 font-medium tracking-wider"
             >
-              Desarrollador Full-Stack con 2 años de experiencia en tecnologías
-              como React, Next.js, Angular, .NET, Node.js, MySQL, PostgreSQL y
-              MongoDB. Mi enfoque es desarrollar soluciones innovadoras para el
+              Con 2 años de experiencia mi enfoque es desarrollar soluciones innovadoras para el
               crecimiento empresarial y mejorar la experiencia de usuario.
-              Además, poseo habilidades de liderazgo en equipos y proyectos, y
-              un deseo constante de aprender y crecer profesionalmente. Mi
-              compromiso con la excelencia y la mejora continua me permite
+              Además, poseo habilidades de liderazgo en equipos y proyectos, 
+              junto a un deseo constante de aprender y crecer profesionalmente. 
+              Mi compromiso con la excelencia y la mejora continua me permite
               aportar ideas frescas a cualquier proyecto.
             </motion.p>
           </div>
