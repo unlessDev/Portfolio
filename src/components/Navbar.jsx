@@ -1,4 +1,4 @@
-import logo from "../assets/devwhite.png";
+import logo from "../assets/dev.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
