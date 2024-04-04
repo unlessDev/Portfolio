@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import profilepic from "../assets/anime.jpeg";
+import profilepic from "../assets/perfil2.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -56,7 +56,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 0.5, delay: 1 }}
               className="rounded-2xl"
               src={profilepic}
               alt="unlessDev"

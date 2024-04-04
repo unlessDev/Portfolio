@@ -1,4 +1,4 @@
-import aboutImg from "../assets/animeOscu.png";
+import aboutImg from "../assets/perfil.jpg";
 import { motion } from "framer-motion";
 
 const About = () => {
