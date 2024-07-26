@@ -15,10 +15,10 @@ const Projects = () => {
             <div className="w-full lg:w-1/3">
               <img
                 src={project.image}
-                width={420}
-                height={420}
+                width="420" // Establecer ancho explícito
+                height="420" // Establecer altura explícita
                 alt={project.title}
-                className="mb-6 rounded "
+                className="mb-6 rounded"
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">

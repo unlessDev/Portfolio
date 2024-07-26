@@ -13,7 +13,13 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="Sobre mí" />
+            <img
+              className="rounded-2xl"
+              src={aboutImg}
+              width="420" // Ajusta esto según el tamaño real de tu imagen
+              height="420" // Ajusta esto según el tamaño real de tu imagen
+              alt="Sobre mí"
+            />
           </div>
         </div>
 
@@ -38,4 +44,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;
