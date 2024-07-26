@@ -21,6 +21,8 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   className="rounded-lg w-full h-auto object-cover shadow-lg"
+                  width="550" // Ajusta esto según el tamaño real de tu imagen
+                  height="367" // Ajusta esto según el tamaño real de tu imagen
                 />
               </div>
             </div>

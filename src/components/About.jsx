@@ -18,6 +18,8 @@ const About = () => {
                 className="rounded-2xl w-full max-w-md lg:max-w-lg xl:max-w-xl"
                 src={aboutImg}
                 alt="Sobre mí"
+                width="550" // Ajusta esto según el tamaño real de tu imagen
+                height="367" // Ajusta esto según el tamaño real de tu imagen
               />
             </div>
           </div>
