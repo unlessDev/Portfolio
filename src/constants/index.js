@@ -1,5 +1,4 @@
 import santex from "../assets/Santex-Diploma.webp";
-import egg from "../assets/Egg-Diploma.webp";
 import MemeMaker from "../assets/MemeMaker.webp";
 
 export const EXPERIENCES = [
@@ -48,20 +47,6 @@ export const PROJECTS = [
       "MySQL",
       "Docker",
       "SCRUM",
-    ],
-  },
-  {
-    image: egg,
-    title: "Web Full-Stack",
-    description:
-      "En Egg , adquirí conceptos teóricos clave para el desarrollo de software y aprendí a resolver desafíos prácticos mediante múltiples soluciones y buenas prácticas de estructuración.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Spring Framework",
-      "Java",
-      "PostgreSQL",
-      "Auth",
     ],
   },
   {
