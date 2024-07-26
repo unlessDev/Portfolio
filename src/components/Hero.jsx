@@ -1,4 +1,4 @@
-import profilepic from "../assets/Character-Focus.webp";
+import profilepic from "../assets/Character.webp";
 
 const Hero = () => {
   return (
