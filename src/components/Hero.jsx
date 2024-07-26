@@ -34,6 +34,8 @@ const Hero = () => {
             <img
               className="rounded-2xl w-full max-w-md lg:max-w-lg xl:max-w-xl"
               src={profilepic}
+              width="550" // Ajusta esto según el tamaño real de tu imagen
+              height="367" // Ajusta esto según el tamaño real de tu imagen
               alt="unlessDev"
             />
           </div>
