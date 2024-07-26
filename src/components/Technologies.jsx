@@ -5,6 +5,7 @@ import { FaAngular } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaBootstrap } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -23,21 +24,13 @@ const iconVariants = (duration) => ({
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-200 pb-24">
-      <motion.h2
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 100 }}
-        transition={{ duration: 1.5 }}
+      <h2
         className="bg-gradient-to-r from-blue-600 via-slate-400 to-purple-600 bg-clip-text 
         text-transparent my-20 text-center text-5xl font-bold"
       >
         Tecnologías
-      </motion.h2>
-      <motion.div
-        whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -100 }}
-        transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4"
-      >
+      </h2>
+      <motion.div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
           variants={iconVariants(2)}
           initial="initial"
