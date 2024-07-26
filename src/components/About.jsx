@@ -2,30 +2,28 @@ import aboutImg from "../assets/Character-Perfil.webp";
 
 const About = () => {
   return (
-    <div className="border-b font-semibold pb-4">
+    <div className="border-b font-semibold pb-8 lg:pb-16">
       <h1
         className="bg-gradient-to-r from-blue-600 via-slate-400 to-purple-600 bg-clip-text 
-        text-transparent my-10 text-center text-5xl font-bold"
+        text-transparent my-10 text-center text-4xl md:text-5xl font-bold"
       >
         Sobre Mí
       </h1>
 
-      <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex items-center justify-center">
-            <img
-              className="rounded-2xl"
-              src={aboutImg}
-              width="420" // Ajusta esto según el tamaño real de tu imagen
-              height="420" // Ajusta esto según el tamaño real de tu imagen
-              alt="Sobre mí"
-            />
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-8">
+          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+            <div className="flex justify-center lg:justify-start">
+              <img
+                className="rounded-2xl w-full max-w-md lg:max-w-lg xl:max-w-xl"
+                src={aboutImg}
+                alt="Sobre mí"
+              />
+            </div>
           </div>
-        </div>
 
-        <div className="w-full lg:w-1/2">
-          <div className="flex items-center justify-center lg:justify-start">
-            <p className="my-2 max-w-xl text-white py-6">
+          <div className="w-full lg:w-1/2 lg:flex lg:items-center">
+            <p className="text-white text-center lg:text-left max-w-2xl mx-auto lg:mx-0">
               Desarrollador dedicado y versátil, con pasión por crear
               aplicaciones Web eficientes y amigables para el usuario. Con 2
               años de experiencia profesional, he trabajado con diversas
