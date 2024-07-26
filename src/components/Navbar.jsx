@@ -4,7 +4,13 @@ const Navbar = () => {
   return (
     <nav className="mb-8 flex items-center justify-between py-1">
       <div className="flex flex-shrink-0 items-center">
-        <img className="mx-2 w-12 rounded-xl" src={logo} alt="logo" />
+        <img
+          src={logo}
+          className="mx-2 w-12 rounded-xl"
+          width="42" // Ajusta esto según el tamaño real de tu imagen
+          height="42" // Ajusta esto según el tamaño real de tu imagen
+          alt="logo"
+        />
       </div>
       <div className="m-8 flex items-center justify-center gap-5 text-4xl text-white">
         <a
