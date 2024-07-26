@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="flex flex-col items-center lg:items-start">
             <h1
               className="bg-gradient-to-r from-pink-600 via-slate-500 to-blue-600 bg-clip-text 
-                                        text-transparent pb-12 text-6xl lg:mt-16 font-semibold lg:text-9xl"
+                text-transparent pb-12 text-6xl lg:mt-16 font-semibold lg:text-9xl"
             >
               unlessDev
             </h1>
@@ -30,7 +30,13 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-            <img className="rounded-2xl" src={profilepic} alt="unlessDev" />
+            <img
+              className="rounded-2xl"
+              src={profilepic}
+              width="420" // Ajusta esto según el tamaño real de tu imagen
+              height="420" // Ajusta esto según el tamaño real de tu imagen
+              alt="unlessDev"
+            />
           </div>
         </div>
       </div>
