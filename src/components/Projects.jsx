@@ -1,4 +1,5 @@
 import { PROJECTS } from "../constants";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -21,8 +22,8 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   className="rounded-lg w-full h-auto object-cover shadow-lg"
-                  width="550" // Ajusta esto según el tamaño real de tu imagen
-                  height="367" // Ajusta esto según el tamaño real de tu imagen
+                  width={550}
+                  height={367}
                 />
               </div>
             </div>
@@ -34,15 +35,25 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="flex flex-wrap">
-                {project.technologies.map((tech, index) => (
+                {project.technologies.map((tech, techIndex) => (
                   <span
-                    key={index}
+                    key={techIndex}
                     className="mr-2 mb-2 rounded bg-neutral-900 px-3 py-1 text-sm font-medium text-purple-500"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center mt-6 px-4 py-2 bg-neutral-900 text-purple-500 rounded hover:bg-purple-700 hover:text-white transition-colors"
+                >
+                  Ver proyecto <FaExternalLinkAlt className="ml-2" />
+                </a>
+              )}
             </div>
           </div>
         ))}
