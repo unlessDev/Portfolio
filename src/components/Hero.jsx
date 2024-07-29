@@ -20,13 +20,17 @@ const Hero = () => {
                 Full Stack Developer
               </span>
               <p className="mt-4 lg:mt-8 text-white max-w-xl text-center lg:text-left font-medium tracking-wider">
-                Con 2 años de experiencia mi enfoque es desarrollar soluciones
-                innovadoras para el crecimiento empresarial y mejorar la
-                experiencia de usuario. Además, poseo habilidades de liderazgo
-                en equipos y proyectos, junto a un deseo constante de aprender y
-                crecer profesionalmente. Mi compromiso con la excelencia y la
-                mejora continua me permite aportar ideas frescas a cualquier
-                proyecto.
+                Como desarrollador Full-Stack, me dedico a crear soluciones
+                tecnológicas innovadoras que mejoran la experiencia del usuario
+                y apoyan el crecimiento empresarial. Mi enfoque se basa en
+                aplicar los principios SOLID y respetar patrones de diseño,
+                buscando siempre eficiencia, escalabilidad y facilidad de
+                mantenimiento. Con un entusiasmo por aprender y mejorar, me
+                esfuerzo por integrar las mejores prácticas de diseño en cada
+                proyecto. Mi objetivo es contribuir positivamente al desarrollo
+                de software, manteniéndome al día con las últimas tendencias y
+                buscando siempre nuevas oportunidades para crecer y aportar
+                valor.
               </p>
             </div>
           </div>
